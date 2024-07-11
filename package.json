@@ -1,0 +1,26 @@
+{
+  "name": "memo-theme",
+  "displayName": "MemoTheme",
+  "description": "",
+  "publisher": "MemoTheme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Memo-Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Memo-Dark-color-theme.json"
+      }
+    ]
+  }
+}
