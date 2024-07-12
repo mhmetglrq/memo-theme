@@ -1,9 +1,9 @@
 {
   "name": "the-bear",
   "displayName": "TheBear",
-  "description": "",
+  "description": "TheBear is a dark color theme",
   "publisher": "MemoTheme",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -21,6 +21,20 @@
         "label": "TheBear-Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/the-bear-dark-color-theme.json"
+        
+      }
+      
+    ],
+    "tags": [
+      {
+        "label": "dark",
+        "description": "Dark color themes are optimized for dark themes."
+        
+      },
+      {
+        "label": "the-bear",
+        "description": "TheBear is a dark color theme."
+        
       }
     ]
   }
