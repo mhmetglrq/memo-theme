@@ -1,28 +1,51 @@
-# Welcome to your VS Code Extension
+# MemoTheme for Visual Studio Code
 
-## What's in the folder
+![Screenshot 1](path/to/screenshot1.png)
+![Screenshot 2](path/to/screenshot2.png)
 
-* This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Memo-Dark-color-theme.json` - the color theme definition file.
+MemoTheme is a sleek and minimalist theme for Visual Studio Code, designed to enhance your coding experience with clean visuals and a modern aesthetic. 
 
-## Get up and running straight away
+## Features
 
-* Press `F5` to open a new window with your extension loaded.
-* Open `File > Preferences > Color Themes` and pick your color theme.
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+- **Clean Design**: A minimalist approach to keep your workspace distraction-free.
+- **Color Palette**: Shades of blue, grey, and white for a professional look.
+- **Syntax Highlighting**: Enhanced readability with subtle yet distinct syntax highlighting.
+- **Customizable**: Easily tweak the theme to fit your personal preferences.
 
-## Make changes
+## Installation
 
-* Changes to the theme file are automatically applied to the Extension Development Host window.
+1. Open **Visual Studio Code**.
+2. Go to the **Extensions** view by clicking on the square icon in the sidebar or pressing `Ctrl+Shift+X`.
+3. Search for `MemoTheme`.
+4. Click **Install**.
 
-## Adopt your theme to Visual Studio Code
+## Activation
 
-* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+1. After installation, open the **Command Palette** with `Ctrl+Shift+P`.
+2. Type `Preferences: Color Theme` and select `MemoTheme` from the list.
 
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+## Customization
 
-## Install your extension
+To customize the theme:
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+1. Open the **Command Palette** with `Ctrl+Shift+P`.
+2. Type `Preferences: Open Settings (JSON)`.
+3. Add your custom settings, for example:
+    ```json
+    "workbench.colorCustomizations": {
+        "editor.background": "#1e1e1e",
+        "editor.foreground": "#d4d4d4"
+    }
+    ```
+
+## Feedback
+
+We welcome your feedback and suggestions! If you encounter any issues or have ideas for improvements, please open an issue on our [GitHub repository](https://github.com/your-repo/memotheme).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for choosing MemoTheme! Happy coding!

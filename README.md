@@ -1,16 +1,53 @@
-# memo-theme README
+# MemoTheme for Visual Studio Code
 
-## Working with Markdown
+<p align="center">
+  <img src="./images/first.png" alt="Screenshot 1" width="47%"/>
+  <img src="./images/second.png" alt="Screenshot 2" width="47%"/>
+</p>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+MemoTheme is a sleek and minimalist theme for Visual Studio Code, designed to enhance your coding experience with clean visuals and a modern aesthetic. 
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Features
 
-## For more information
+- **Clean Design**: A minimalist approach to keep your workspace distraction-free.
+- **Color Palette**: Shades of blue, grey, and white for a professional look.
+- **Syntax Highlighting**: Enhanced readability with subtle yet distinct syntax highlighting.
+- **Customizable**: Easily tweak the theme to fit your personal preferences.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Installation
 
-**Enjoy!**
+1. Open **Visual Studio Code**.
+2. Go to the **Extensions** view by clicking on the square icon in the sidebar or pressing `Ctrl+Shift+X`.
+3. Search for `MemoTheme`.
+4. Click **Install**.
+
+## Activation
+
+1. After installation, open the **Command Palette** with `Ctrl+Shift+P`.
+2. Type `Preferences: Color Theme` and select `MemoTheme` from the list.
+
+## Customization
+
+To customize the theme:
+
+1. Open the **Command Palette** with `Ctrl+Shift+P`.
+2. Type `Preferences: Open Settings (JSON)`.
+3. Add your custom settings, for example:
+    ```json
+    "workbench.colorCustomizations": {
+        "editor.background": "#1e1e1e",
+        "editor.foreground": "#d4d4d4"
+    }
+    ```
+
+## Feedback
+
+We welcome your feedback and suggestions! If you encounter any issues or have ideas for improvements, please open an issue on our [GitHub repository](https://github.com/your-repo/memotheme).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./Licence) file for details.
+
+---
+
+Thank you for choosing MemoTheme! Happy coding!
