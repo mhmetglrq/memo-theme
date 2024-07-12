@@ -42,7 +42,7 @@ To customize the theme:
 
 ## Feedback
 
-We welcome your feedback and suggestions! If you encounter any issues or have ideas for improvements, please open an issue on our [GitHub repository](https://github.com/your-repo/memotheme).
+We welcome your feedback and suggestions! If you encounter any issues or have ideas for improvements, please open an issue on our [GitHub repository](https://github.com/mhmetglrq/memo-theme).
 
 ## License
 
