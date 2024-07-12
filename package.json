@@ -1,9 +1,9 @@
 {
-  "name": "memo-theme",
-  "displayName": "MemoTheme",
+  "name": "the-bear",
+  "displayName": "TheBear",
   "description": "",
   "publisher": "MemoTheme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -17,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Memo-Dark",
+        "label": "TheBear-Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Memo-Dark-color-theme.json"
+        "path": "./themes/the-bear-dark-color-theme.json"
       }
     ]
   }
